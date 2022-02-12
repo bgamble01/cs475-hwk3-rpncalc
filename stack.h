@@ -8,6 +8,18 @@
 #ifndef STACK_H_
 #define STACK_H_
 
-// TODO: declaration of stack struct and its functions go here
+//structs
+typedef struct Node
+{
+	double data;
+    struct Node *next;
+} Node;
+
+//functions declarations
+
+int size();
+void push(double input);
+double pop();
+void printStack();
 
 #endif /* STACK_H_ */
