@@ -8,6 +8,9 @@
 #ifndef POLISH_H_
 #define POLISH_H_
 
-// TODO: evaluate() declaration goes here
+//functions
+
+double evaluate(char input[]);
 
 #endif /* POLISH_H_ */
+
